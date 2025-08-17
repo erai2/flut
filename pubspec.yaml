@@ -1,0 +1,28 @@
+name: my_diary
+description: A personal diary app with fortune features.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  firebase_storage:
+  google_sign_in:
+  image_picker:
+  uuid:
+  intl:
+  flutter_markdown:
+  go_router:
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
