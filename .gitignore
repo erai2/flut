@@ -1,0 +1,21 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+
+# Android related
+**/android/**/local.properties
+**/android/**/app/google-services.json
+
+# iOS related
+**/ios/**/Runner/GoogleService-Info.plist
+
+# Misc
+.env
+.streamlit/
+
+# Others
+*.iml
+.idea/
+.vscode/
